@@ -1,0 +1,33 @@
+[[package]]
+name = "envirophat"
+version = "1.0.1"
+description = "Enviro pHAT environmental sensor board driver"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+"RPi.GPIO" = "*"
+
+[[package]]
+name = "rpi.gpio"
+version = "0.7.0"
+description = "A module to control Raspberry Pi GPIO channels"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "34258bfabc3dc910fc393e70924cc7f6049cf2d3e1fdb8fae25d2cb010e26a46"
+
+[metadata.files]
+envirophat = [
+    {file = "envirophat-1.0.1-py2-none-any.whl", hash = "sha256:b36739af897e06f6b2a1e5b456f90bbe04d5c6052182be505d6ae90517c4c4bb"},
+    {file = "envirophat-1.0.1-py3-none-any.whl", hash = "sha256:1ddca374999ccd32ecddc44ba6f94196e3d4cd63178c4ea4e31ccc3653a94620"},
+    {file = "envirophat-1.0.1.tar.gz", hash = "sha256:8a015a9fadf6bc90e67bdfde9ee0466d0c05dfeae2fe5b0ac8fa7b15ad540f83"},
+]
+"rpi.gpio" = [
+    {file = "RPi.GPIO-0.7.0.tar.gz", hash = "sha256:7424bc6c205466764f30f666c18187a0824077daf20b295c42f08aea2cb87d3f"},
+]
